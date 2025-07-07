@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class twosum {
+public class twosum1 {
     /*
      * Time complexity: O(n)
      * Space complexity: O(n)
@@ -18,7 +18,7 @@ public class twosum {
     }
 
     public static void main(String[] args) {
-        twosum solution = new twosum();
+        twosum1 solution = new twosum1();
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] result = solution.twoSum(nums, target);
